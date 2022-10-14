@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.section1{
+    background-image: url(banner.jpeg);
+    width:100%;
+    height:60vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#title{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    padding: 150px;
+    
+}
+/* nav bar */
+nav{
+    width: 100%;
+    overflow: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+    display: inline;
+   
+}
+
+li a{
+    justify-content: space-around;
+    padding: 20px 35px ;
+    
+}
+
+
+#subtitle{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* container 1 */
+
+.container1{
+    width: 100%;
+    height: 250px;
+    padding: 30px 40px;
+}
+
+#img1{
+    width: 300px;
+    height: 210px;
+
+}
+#danger{
+    margin-left: 400px;
+    padding-top: 30px;
+    margin: -240px 10px 10px 400px;
+}
+/* END container 1 */
+div h2{
+    padding-bottom:20px;
+}
+
+
+/* container 2 */
+.container2{
+    width: 100%;
+    height: 250px;
+    padding: 20px 40px;
+
+}
+#nature{
+    width: 300px;
+    height: 210px;
+    padding-top: 20px;
+}
+
+#img2{
+    width: 300px;
+    height: 210px;
+    margin-left: 400px;
+    padding-top: 0;
+    margin: -240px 10px 10px 400px;
+
+}
+
+/* END container 2 */
+
+
+/* container 3 */
+
+.container3{
+    width: 100%;
+    height: 250px;
+    padding: 50px 40px;
+}
+
+#img3{
+    width: 300px;
+    height: 210px;
+
+}
+#package{
+    margin-left: 400px;
+    padding-top: 30px;
+    margin: -240px 10px 10px 400px;
+}
+/* END container 3 */
+
+#testimonials{
+    text-align: center;
+    padding: 20px
+}
+
+footer{
+    text-align:center;
+    padding: 20px;
+}
